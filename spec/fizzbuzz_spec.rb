@@ -36,3 +36,9 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(4)).to eq 4
   end
 end
+
+describe 'fizzbuzz' do
+  it 'if passed multiple of 3 and 5 then return fizzbuzz' do
+    expect(fizzbuzz(15)).to eq 'fizzbuzz'
+  end
+end
