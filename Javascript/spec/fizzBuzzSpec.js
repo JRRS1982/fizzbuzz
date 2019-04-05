@@ -29,8 +29,11 @@ describe('FizzBuzz', function() {
   });
 
   describe('when playing says fizz buzz', function() {
-    it('says fizz instead of 3', function() {
+    it('says Fizz instead of 3', function() {
       expect(fizzBuzz.says(3)).toEqual('Fizz')
+    });
+    it('says Buzz instead of 5', function () {
+      expect(fizzBuzz.says(5)).toEqual('Buzz')
     });
   });
 });
