@@ -27,4 +27,10 @@ describe('FizzBuzz', function() {
       expect(fizzBuzz._isDivisibleByFifteen(2)).toBe(false);
     });
   });
+
+  describe('when playing says fizz buzz', function() {
+    it('says fizz instead of 3', function() {
+      expect(fizzBuzz.says(3)).toEqual('Fizz')
+    });
+  });
 });
