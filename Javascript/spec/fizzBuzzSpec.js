@@ -7,4 +7,11 @@ describe('FizzBuzz', function() {
       expect(fizzBuzz.isDivisibleByThree(3)).toBe(true);
     });
   });
+
+  describe('knowns when a number is not', function () {
+    it('is not divisible by three', function () {
+      fizzBuzz = new FizzBuzz();
+      expect(fizzBuzz.isDivisibleByThree(2)).toBe(false);
+    });
+  });
 });
