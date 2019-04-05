@@ -30,4 +30,5 @@ FizzBuzz.prototype.says = function (number) {
   if (this._isDivisibleBy(number, 5)) { 
     return "Buzz";
   };
+  return number;
 };

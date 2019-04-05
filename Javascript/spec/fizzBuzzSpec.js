@@ -38,5 +38,8 @@ describe('FizzBuzz', function() {
     it('says Buzz instead of 5', function () {
       expect(fizzBuzz.says(5)).toEqual('Buzz')
     });
+    it('returns the number if not 3/5/15', function () {
+      expect(fizzBuzz.says(2)).toEqual(2)
+    });
   });
 });
