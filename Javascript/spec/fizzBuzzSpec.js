@@ -29,6 +29,9 @@ describe('FizzBuzz', function() {
   });
 
   describe('when playing says fizz buzz', function() {
+    it('says FizzBuzz when div of 15', function () {
+      expect(fizzBuzz.says(15)).toEqual('FizzBuzz')
+    });
     it('says Fizz instead of 3', function() {
       expect(fizzBuzz.says(3)).toEqual('Fizz')
     });
