@@ -4,11 +4,14 @@ Fizzbuzz is a simple programme, used for coding practice. In this instance it wa
 
 ## Motivation
 
-This project was made to develop my coding skills in Jvascript and Jasmine, both of which are languages which I had not worked with before the start of this week. I am completing this project following a strict TDD process, and trying to follow best practice to hone my development skills.
+This project was made to develop my coding skills in Jvascript and Jasmine, both of which are languages which I had not
+worked with before the start of this week. I am completing this project following a strict TDD process, and trying to
+follow best practice to hone my development skills.
 
 ### Build status
   
-As far as I am concerned this project is complete. I may return to it in the future to redo the exercise, for further practice but have managed to complete the project and followed a very strict TDD process with Jasmine in the process, keeping detailed commit messages.
+As far as I am concerned this project is complete. Currently I created functions for various arguments, although I
+recognise that this could be reduced in size I am happy as the features work and it can be easily updated.
 
 ### Screenshots
 
@@ -33,7 +36,8 @@ ESLint was used for linting.
 
 ### Tests
 
-A TDD process was used in the development of this project, please see above version of the test software. Also please see commit messages for the detailed updates.
+A TDD process was used in the development of this project, please see above version of the test software. Also please
+see commit messages for the detailed updates.
 
 ## Installation
 
@@ -45,8 +49,10 @@ No API used in this project.
 
 ## How to use
 
-Can open 'SpecRunner.html' in the browser to check that tests are running, and within developer tools, console.
+Can open 'SpecRunner.html' in the browser to check that tests are running, and within developer tools, console by
+loading the html page.
 
 ## Credits
 
-No contributions are required at this time, as this is a training exercise. Full credit given to Makers Academy who led my down the path to becoming a developer.
+No contributions are required at this time, as this is a training exercise. Full credit given to Makers Academy who led
+my down the path to becoming a developer.
